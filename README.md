@@ -4,7 +4,7 @@ Welcome to my personal portfolio repository! This project showcases my profile, 
 
 ## 🚀 Live Demo
 You can view the live site hosted on GitHub Pages:
-[https://aijaneomac.github.io](https://aijaneomac.github.io)
+[https://aijaneeomacc-cell.github.io](https://aijaneeomacc-cell.github.io)
 
 ## 🧰 Technologies Used
 - **HTML5** - Page structure and semantic layout
@@ -14,5 +14,5 @@ You can view the live site hosted on GitHub Pages:
 
 ## 👤 Author
 **Aijane E. Omac**
-- GitHub: [@aijaneeomacc](https://github.com/aijaneeomacc)
+- Github: [@aijaneeomacc-cell](https://github.com/aijaneeomacc-cell)
 - Email: aijaneeomacc@gmail.com
