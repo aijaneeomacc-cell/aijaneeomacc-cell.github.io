@@ -6,7 +6,7 @@ Welcome to my personal portfolio repository! This project showcases my profile, 
 You can view the live site hosted on GitHub Pages:
 [https://aijaneeomacc-cell.github.io](https://aijaneeomacc-cell.github.io)
 
-## 🧰 Technologies Used
+## 🛠️ Technologies Used
 - **HTML5** - Page structure and semantic layout
 - **CSS3** - Styling, responsive layout, and design system
 - **JavaScript** - Dynamic elements and client-side logic
