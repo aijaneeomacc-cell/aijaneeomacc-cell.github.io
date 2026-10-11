@@ -5,55 +5,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio of Aijane E. Omac">
   <title>Aijane E. Omac | Portfolio</title>
- <link rel="stylesheet" href="pages/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="pages/css/styles.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="logo" href="#home">Aijane E. Omac</a>
-      <div class="nav-links">
+        <a class="logo" href="#home"><img src="images/my-logo.jpg" alt="My Logo" class="site-logo" style="height: 75px; width: auto; display: block;"></a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-      </div>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero container">
-      <div>
-        <p class="eyebrow">Hello, I am</p>
-        <h1>Aijane E. Omac</h1>
-        <p class="tagline">Student • Designer • Manual QA Tester</p>
-        <p>I focus on creating user-friendly website layouts and eye-catching digital graphics. I pay close attention to detail to ensure everything not only looks modern but also functions seamlessly.</p>
-        <a class="button" href="#projects">View my work</a>
+    <section id="hero" class="hero-section">
+  <div class="container hero-container">
+    <div class="hero-text">
+      <p class="hero-greeting">Hi, my name is</p>
+      <h1 class="hero-name">Aijane E. Omac</h1>
+      <h2 class="hero-tagline">UI Designer & Manual QA Tester.</h2>
+      <p class="hero-description">
+        I'm an IT student, UI Designer, and Manual QA Tester focused on building user-friendly layouts and ensuring digital products run smoothly and error-free.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
       </div>
-      <img src="images/profile.jpg.jpg" alt="Portrait of Aijane E. Omac" class="profile-photo">
-    </section>
+    </div>
+    
+    <div class="hero-image">
+      <img src="images/profile.jpg.jpg" alt="Aijane E. Omac Profile Picture">
+    </div>
+  </div>
+</section>
 
     <hr class="section-divider">
 
     <section id="about" class="section alt-bg">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>I am currently an Information Technology student with a strong passion for both web development and creative visual design. I enjoy creating clean, modern websites, digital graphics, and logos that are visually appealing and easy to navigate. Through my studies and hands-on projects, my goal is to continuously improve my skills in front-end development, UI design, and manual QA testing.</p>
-        <p>Working on coding assignments and design projects has taught me to pay attention to small details and adapt to new tools quickly. I aim to build a creative career where I can collaborate with others on meaningful and innovative digital solutions. Ultimately, I want to create user-friendly web experiences and designs that I can be genuinely proud of.</p>
-      </div>
-    </section>
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+    <div class="about-text">
+  <p>Hello! I am an Information Technology student with a strong passion for front-end web development, clean UI design, and manual QA testing. My journey started with a curiosity for how websites work, which quickly grew into a dedicated pursuit of crafting simple, intuitive, and highly accessible user interfaces.</p>
+
+  <p>I focus on building functional layouts using standard HTML, CSS, and JavaScript while continuously learning modern design practices. I pay close attention to visual consistency, typography, and detail to ensure every experience I build is user-friendly, responsive, and reliable across devices.</p>
+
+ <p><strong>Key focus areas & tools I work with:</strong></p>
+<ul class="about-skills-list">
+  <li><i class="fa-solid fa-caret-right"></i> HTML5 & Modern CSS</li>
+  <li><i class="fa-solid fa-caret-right"></i> JavaScript (JS)</li>
+  <li><i class="fa-solid fa-caret-right"></i> Manual QA & Bug Tracking</li>
+  <li><i class="fa-solid fa-caret-right"></i> UI Design & Wireframing</li>
+</ul>
+</div>
+
+      <div class="about-highlights">
+  
+  <div class="card">
+    <i class="fa-solid fa-graduation-cap"></i>
+    <h3>Education</h3>
+    <p>IT Student</p>
+  </div>
+
+  <div class="card">
+    <i class="fa-solid fa-compass-drafting"></i>
+    <h3>Specialization</h3>
+    <p>Web Layouts & Testing</p>
+  </div>
+
+  <div class="card">
+    <i class="fa-solid fa-location-dot"></i>
+    <h3>Location</h3>
+    <p>Cagayan de Oro City</p>
+  </div>
+</div>
+</section>
 
     <hr class="section-divider">
 
-    <section id="skills" class="section container">
-      <h2>Skills</h2>
-      <ul class="skill-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Communication</li>
-        <li>Teamwork</li>
-      </ul>
-    </section>
+   <section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+        <h3>HTML</h3>
+        <p>Building clean, semantic, and well-structured web page layouts.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+        <h3>CSS</h3>
+        <p>Styling responsive layouts with modern CSS variables, flexbox, and grid.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+        <h3>JavaScript</h3>
+        <p>Adding interactive elements, dynamic functionality, and custom themes.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <h3>Attention to Detail</h3>
+        <p>Meticulously verifying UI alignment, spacing, typography, and visual consistency.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-lightbulb"></i></div>
+        <h3>Problem-Solving</h3>
+        <p>Troubleshooting layout issues, fixing bugs, and optimizing code effectively.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-users"></i></div>
+        <h3>Teamwork & Communication</h3>
+        <p>Collaborating smoothly with others to achieve project goals and share ideas.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <hr class="section-divider">
 
@@ -84,12 +160,46 @@
 
     <hr class="section-divider">
 
-    <section id="contact" class="section container">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:aijaneeomacc@gmail.com">aijaneeomacc@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/aijaneeomacc-cell" target="_blank">https://github.com/aijaneeomacc-cell</a></p>
-    </section>
-  </main>
+  <section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="project-grid">
+
+      <div class="card contact-item">
+        <p>
+          <i class="fa-regular fa-envelope"></i> 
+          <strong>Email:</strong> 
+          <a href="mailto:aijaneeomacc@gmail.com">aijaneeomacc@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="card contact-item">
+        <p>
+          <i class="fa-brands fa-github"></i> 
+          <strong>GitHub:</strong> 
+          <a href="https://github.com/aijaneeomacc-cell" target="_blank">github.com/aijaneeomacc-cell</a>
+        </p>
+      </div>
+
+      <div class="card contact-item">
+        <p>
+          <i class="fa-brands fa-facebook"></i> 
+          <strong>Facebook:</strong> 
+          <a href="https://facebook.com" target="_blank">Aijane Omac</a>
+        </p>
+      </div>
+
+      <div class="card contact-item">
+        <p>
+          <i class="fa-brands fa-instagram"></i> 
+          <strong>Instagram:</strong> 
+          <a href="https://instagram.com" target="_blank">@aijaneeomac</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
   <footer>
     <p>© <span id="year"></span> Aijane E. Omac. Built with HTML and CSS.</p>
